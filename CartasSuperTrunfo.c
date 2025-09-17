@@ -1,13 +1,9 @@
 #include <stdio.h>
-    int main(){
-        int carta = 1;
-        float altura = 1.75;
-        char opcoes = 'S';
-        char nome[20] = "sergio";
-
-        printf("A idade do %s é: %\n", nome, idade);
-        printf("A altura é: %e\n", altura);
-        printf("A opcao é: %c\n, opcao");    
-
+ 
+int main() {
+    int código;
+    printf("Digite o código da carta: \n");
+    scanf("%d", &Código);
+    printf("O código da sua carta é: %d\n", código);
     return 0;
 }
